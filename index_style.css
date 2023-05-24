@@ -5,17 +5,20 @@
     margin: 0;
     box-sizing: border-box;
   }
+
   .x *,
   .x :after,
   .x :before {
     box-sizing: inherit;
   }
+
   .x-el a[href^="mailto:"]:not(.x-el),
   .x-el a[href^="tel:"]:not(.x-el) {
     color: inherit;
     font-size: inherit;
     text-decoration: inherit;
   }
+
   .x-el-article,
   .x-el-aside,
   .x-el-details,
@@ -31,6 +34,7 @@
   .x-el-summary {
     display: block;
   }
+
   .x-el-audio,
   .x-el-canvas,
   .x-el-progress,
@@ -38,38 +42,48 @@
     display: inline-block;
     vertical-align: baseline;
   }
+
   .x-el-audio:not([controls]) {
     display: none;
     height: 0;
   }
+
   .x-el-template {
     display: none;
   }
+
   .x-el-a {
     background-color: transparent;
     color: inherit;
   }
+
   .x-el-a:active,
   .x-el-a:hover {
     outline: 0;
   }
+
   .x-el-abbr[title] {
     border-bottom: 1px dotted;
   }
+
   .x-el-b,
   .x-el-strong {
     font-weight: 700;
   }
+
   .x-el-dfn {
     font-style: italic;
   }
+
   .x-el-mark {
     background: #ff0;
     color: #000;
   }
+
   .x-el-small {
     font-size: 80%;
   }
+
   .x-el-sub,
   .x-el-sup {
     font-size: 75%;
@@ -77,29 +91,37 @@
     position: relative;
     vertical-align: baseline;
   }
+
   .x-el-sup {
     top: -0.5em;
   }
+
   .x-el-sub {
     bottom: -0.25em;
   }
+
   .x-el-img {
     vertical-align: middle;
     border: 0;
   }
+
   .x-el-svg:not(:root) {
     overflow: hidden;
   }
+
   .x-el-figure {
     margin: 0;
   }
+
   .x-el-hr {
     box-sizing: content-box;
     height: 0;
   }
+
   .x-el-pre {
     overflow: auto;
   }
+
   .x-el-code,
   .x-el-kbd,
   .x-el-pre,
@@ -107,6 +129,7 @@
     font-family: monospace, monospace;
     font-size: 1em;
   }
+
   .x-el-button,
   .x-el-input,
   .x-el-optgroup,
@@ -116,13 +139,16 @@
     font: inherit;
     margin: 0;
   }
+
   .x-el-button {
     overflow: visible;
   }
+
   .x-el-button,
   .x-el-select {
     text-transform: none;
   }
+
   .x-el-button,
   .x-el-input[type="button"],
   .x-el-input[type="reset"],
@@ -130,67 +156,84 @@
     -webkit-appearance: button;
     cursor: pointer;
   }
+
   .x-el-button[disabled],
   .x-el-input[disabled] {
     cursor: default;
   }
+
   .x-el-button::-moz-focus-inner,
   .x-el-input::-moz-focus-inner {
     border: 0;
     padding: 0;
   }
+
   .x-el-input {
     line-height: normal;
   }
+
   .x-el-input[type="checkbox"],
   .x-el-input[type="radio"] {
     box-sizing: border-box;
     padding: 0;
   }
+
   .x-el-input[type="number"]::-webkit-inner-spin-button,
   .x-el-input[type="number"]::-webkit-outer-spin-button {
     height: auto;
   }
+
   .x-el-input[type="search"] {
     -webkit-appearance: textfield;
     box-sizing: content-box;
   }
+
   .x-el-input[type="search"]::-webkit-search-cancel-button,
   .x-el-input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
   }
+
   .x-el-textarea {
     border: 0;
   }
+
   .x-el-fieldset {
     border: 1px solid silver;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
   }
+
   .x-el-legend {
     border: 0;
     padding: 0;
   }
+
   .x-el-textarea {
     overflow: auto;
   }
+
   .x-el-optgroup {
     font-weight: 700;
   }
+
   .x-el-table {
     border-collapse: collapse;
     border-spacing: 0;
   }
+
   .x-el-td,
   .x-el-th {
     padding: 0;
   }
+
   .x {
     -webkit-font-smoothing: antialiased;
   }
+
   .x-el-hr {
     border: 0;
   }
+
   .x-el-fieldset,
   .x-el-input,
   .x-el-select,
@@ -198,33 +241,41 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .x-el-fieldset,
   .x-el-input[type="email"],
   .x-el-input[type="text"],
   .x-el-textarea {
     width: 100%;
   }
+
   .x-el-label {
     vertical-align: middle;
   }
+
   .x-el-input {
     border-style: none;
     padding: 0.5em;
     vertical-align: middle;
   }
+
   .x-el-select:not([multiple]) {
     vertical-align: middle;
   }
+
   .x-el-textarea {
     line-height: 1.75;
     padding: 0.5em;
   }
+
   .x-el.d-none {
     display: none !important;
   }
+
   .sideline-footer {
     margin-top: auto;
   }
+
   .disable-scroll {
     touch-action: none;
     overflow: hidden;
